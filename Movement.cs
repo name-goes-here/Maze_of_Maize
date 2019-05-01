@@ -15,13 +15,13 @@ public class Movement : MonoBehaviour {
     void Update(){
         //transform.position += new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * speed * Time.deltaTime;
 
-        if (Input.GetKeyDown(KeyCode.D) && transform.position == pos) {
+        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow) && transform.position == pos) {
             pos += Vector3.right;
-        } else if (Input.GetKeyDown(KeyCode.A) && transform.position == pos) {
+        } else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow) && transform.position == pos) {
             pos += Vector3.left;
-        } else if (Input.GetKeyDown(KeyCode.W) && transform.position == pos) {
+        } else if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) && transform.position == pos) {
             pos += Vector3.up;
-        } else if (Input.GetKeyDown(KeyCode.S) && transform.position == pos) {
+        } else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow) && transform.position == pos) {
             pos += Vector3.down;
         }
 
