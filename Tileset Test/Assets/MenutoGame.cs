@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class WintoMainMenu : MonoBehaviour
+public class MenutoGame : MonoBehaviour
 {
     
 
 
-    public void accessMenu()
+    public void accessGame()
     {
    
-        SceneManager.LoadScene("MenuScreen",LoadSceneMode.Single);
+        SceneManager.LoadScene("MazeTest",LoadSceneMode.Single);
     }
 
   

@@ -349,7 +349,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Enter The Maze
 --- !u!222 &466363192
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -753,7 +753,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 880362503}
-        m_MethodName: accessCredits
+        m_MethodName: accessGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -811,7 +811,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 880362498}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49ca46b2d8194af41a2e447a747c5e18, type: 3}
+  m_Script: {fileID: 11500000, guid: 7f68c44d406f944458040b5cd5094d7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1314066208
@@ -963,7 +963,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Close Game
 --- !u!222 &2113876600
 CanvasRenderer:
   m_ObjectHideFlags: 0
