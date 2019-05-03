@@ -8,4 +8,8 @@ public class MainMenu : MonoBehaviour {
     public void play() {
         SceneManager.LoadScene("MazeTest");
     }
+
+    public void main() {
+        SceneManager.LoadScene("MenuScreen");
+    }
 }
