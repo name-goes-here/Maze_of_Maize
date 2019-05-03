@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MazeTest.unity
     guid: e21429862c7b91d4d8d44f249d5b869f
+  - enabled: 1
+    path: Assets/Winning Screen.unity
+    guid: a24bd0cec35490e4b83c02d31819302a
+  - enabled: 1
+    path: Assets/MenuScreen.unity
+    guid: b780ceddeb06b1f43ad49b67e59050a3
   m_configObjects: {}
