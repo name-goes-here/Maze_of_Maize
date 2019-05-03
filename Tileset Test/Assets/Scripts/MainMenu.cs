@@ -5,10 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 
-    public void win() {
-        SceneManager.LoadScene("Winning Screen");
-    }
-
     public void play() {
         SceneManager.LoadScene("MazeTest");
     }
